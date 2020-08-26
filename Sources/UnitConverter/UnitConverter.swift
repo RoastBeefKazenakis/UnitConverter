@@ -2,8 +2,14 @@
 public class DimensionConverter {
     
     private let secretNumber = 42
-   
+    
+    public init() {
+        
+    }
+    
     public func poundsToKilos(_ pounds: Double) -> Double {
         return pounds * 2.2
+    
+       
     }
 }
